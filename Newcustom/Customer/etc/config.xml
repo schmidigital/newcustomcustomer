@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Newcustom_Customer>
+      <version>0.1.0</version>
+    </Newcustom_Customer>
+  </modules>
+  <frontend>
+    <routers>
+      <customer>
+        <use>standard</use>
+          <args>
+            <module>Newcustom_Customer</module>
+            <frontName>customer</frontName>
+          </args>
+      </customer>
+    </routers>
+  </frontend>
+  <global>
+		<rewrite>        
+            <newcustom_customer_customer_accountcontroller>
+                <from><![CDATA[#^/customer/account/#]]></from> <!-- Mage_Customer_AccountController  -->
+                <to>/customer/customer_account/</to> <!-- Newcustom_Customer_Customer_AccountController  -->
+            </newcustom_customer_customer_accountcontroller>
+		</rewrite>
+    <helpers>
+      <customer>   
+        <class>Newcustom_Customer_Helper</class>
+      </customer>
+    </helpers>
+  </global>
+  
+</config> 

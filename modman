@@ -1,0 +1,3 @@
+# Modman Config
+NewProductcrone                   app/code/local/Probytes/NewProductcrone
+Probytes_NewProductcrone.xml          app/etc/modules/Probytes_NewProductcrone.xml
