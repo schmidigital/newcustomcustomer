@@ -1,0 +1,14 @@
+{
+    "name": "schmidigital/newproducts",
+    "type": "magento-module",
+    "description": "Cron Job for getting new products.",
+    "require": {
+        "qo/newcustomcustomer.git": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "ssh://git@git.schmidigital.de:7999/qo/newcustomcustomer.git"
+        }
+    ]
+}
