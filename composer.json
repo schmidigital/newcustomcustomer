@@ -1,14 +1,9 @@
 {
-    "name": "schmidigital/newproducts",
+    "name": "schmidigital/newcustomcustomer",
     "type": "magento-module",
     "description": "Cron Job for getting new products.",
+    "homepage": "https://github.com/schmidigital/newcustomcustomer",
     "require": {
-        "qo/newcustomcustomer.git": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "ssh://git@git.schmidigital.de:7999/qo/newcustomcustomer.git"
-        }
-    ]
+      "magento-hackathon/magento-composer-installer": "*"
+    }
 }
